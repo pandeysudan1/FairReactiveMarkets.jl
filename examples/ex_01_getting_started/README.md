@@ -105,6 +105,48 @@ DLA      5000.0 (rolling optimum)
 
 ---
 
+## Figures
+
+### Figure 1 — Hydropower Generation Curve
+
+The generation P = η·ρ·g·H·Q scales linearly with turbine flow Q.
+The operating point at Q = 200 m³/s yields P ≈ 216.6 MW.
+
+```
+  P [MW]
+  320│                               ●  P=216.6 MW @ Q=200
+  250│                     ▄▄▄▄▄▄▄▄▄
+  180│           ▄▄▄▄▄▄▄▄▄▄
+  110│ ▄▄▄▄▄▄▄▄▄▄
+   40│
+     └───────────────────────────────
+      50   100   150   200   250  300  Q [m³/s]
+```
+
+![Figure 1: Hydropower Generation Curve](../plot_figures/ex01_fig01_generation_curve.svg)
+
+---
+
+### Figure 2 — Reactive Prices Across Generators
+
+Three NO2 hydropower generators receive different reactive compensation
+prices, resulting in Fairness F = 8.0 (target F → 0).
+
+```
+  λᴼ [€/MVAr]
+  14│       ████
+  12│       ████
+  10│ ████  ████
+   8│ ████  ████  ████
+   6│ ████  ████  ████
+     Tonstad  Sima  Aurland
+  ─ ─ Mean = 10.0 €/MVAr ─ ─
+```
+
+![Figure 2: Reactive Power Prices — Three NO2 Generators](../plot_figures/ex01_fig02_reactive_prices.svg)
+
+---
+
 ## Scientific Contributions Demonstrated
 
 1. **Fair compensation** — variance-based fairness metric `F` quantifies

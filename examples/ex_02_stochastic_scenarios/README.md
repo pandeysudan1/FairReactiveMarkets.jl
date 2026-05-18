@@ -107,6 +107,8 @@ and robust to extreme wind conditions.
   └──────────┴──────────┴──────────┴──────────┴──────────┘
 ```
 
+![Figure: Policy Dispatch Across Wind Scenarios](../plot_figures/ex02_fig01_scenario_releases.svg)
+
 ### Figure 1 — Expected Revenue by Policy
 
 ```
@@ -119,6 +121,8 @@ and robust to extreme wind conditions.
                   0                             9 000 €
   Note: VFA conserves water → higher value in future periods
 ```
+
+![Figure 1: Expected Revenue by Policy](../plot_figures/ex02_fig03_expected_revenue.svg)
 
 ### Figure 2 — Fairness Metric F per Scenario and Policy
 
@@ -143,6 +147,8 @@ and robust to extreme wind conditions.
   Interpretation: high wind → more reactive demand → larger price spread
 ```
 
+![Figure 2: Fairness Metric per Scenario and Policy](../plot_figures/ex02_fig02_expected_fairness.svg)
+
 ### Figure 3 — Expected Fairness and CVaR₀.₉ Comparison
 
 ```
@@ -156,6 +162,8 @@ and robust to extreme wind conditions.
   ─────────┴──────────────────────────────────────────────
   → VFA dominates: fairest on average AND most tail-robust
 ```
+
+![Figure 3: Expected Fairness E[F] by Policy](../plot_figures/ex02_fig02_expected_fairness.svg)
 
 ### Figure 4 — FBMC Feasibility Fan Across Scenarios
 
@@ -172,6 +180,8 @@ and robust to extreme wind conditions.
   All policies: NO2–SE3 flows remain within RAM ✓
   High wind (ω₃) most congesting — DK1 import displaces NO2 exports
 ```
+
+![Figure 4: FBMC Line Flows vs RAM Across Wind Scenarios](../plot_figures/ex02_fig04_fbmc_flows.svg)
 
 ---
 

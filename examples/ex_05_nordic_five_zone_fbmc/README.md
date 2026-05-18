@@ -151,6 +151,8 @@ spillover is strong between them.
   ⚠ L1 reaches 94% utilisation at 18:00 (peak hydro export from NO2)
 ```
 
+![Figure 1: 24-Hour Line Flows vs RAM — Nordic FBMC](../plot_figures/ex05_fig01_hourly_flows.svg)
+
 ### Figure 2 — Congestion Heatmap (Hourly × Line)
 
 ```
@@ -167,6 +169,8 @@ spillover is strong between them.
   → L1 (NO2–SE3) is the critical constraint at evening peak
   → L4 (SE3–DK1) runs persistently near 80% due to Danish import
 ```
+
+![Figure 2: Congestion Intensity Heatmap [% of RAM]](../plot_figures/ex05_fig02_congestion_heatmap.svg)
 
 ### Figure 3 — Zone Coupling Matrix C
 
@@ -185,6 +189,8 @@ spillover is strong between them.
   → NO5–DK1 coupling is weakest (geographically and electrically distant)
 ```
 
+![Figure 3: Zone Electrical Coupling Matrix C_ij](../plot_figures/ex05_fig03_zone_coupling.svg)
+
 ### Figure 4 — Reactive Price by Zone over 24 Hours
 
 ```
@@ -199,6 +205,8 @@ spillover is strong between them.
   ─────────────────────────────────────────────────────
   NO2 and SE3 have highest prices — both are on the congested L1 corridor
 ```
+
+![Figure 4: 24-Hour Mean Reactive Price by Zone](../plot_figures/ex05_fig04_reactive_prices_by_zone.svg)
 
 ### Figure 5 — Inter-Zone Fairness F_zones over 24 Hours
 
@@ -217,6 +225,8 @@ spillover is strong between them.
   Peak unfairness at 18:00 coincides with L1 congestion
   Overnight (00–08) fairness is naturally good (light loading)
 ```
+
+![Figure 5: Inter-Zone Fairness F_zones over 24 Hours](../plot_figures/ex05_fig05_fairness_24h.svg)
 
 ### Table 2 — Hourly Summary Statistics
 

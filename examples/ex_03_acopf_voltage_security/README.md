@@ -126,6 +126,8 @@ compensation regardless of location.
   → V drops below 0.99 pu at P_d > 380 MW (voltage constraint active)
 ```
 
+![Figure 1: Voltage Profile vs Active Load](../plot_figures/ex03_fig01_voltage_profile.svg)
+
 ### Figure 2 — P–Q Capability Diagram
 
 ```
@@ -144,6 +146,8 @@ compensation regardless of location.
   The generator absorbs Q at light load (capacitive) and generates Q at heavy load
 ```
 
+![Figure 2: P–Q Capability Diagram with Operating Points](../plot_figures/ex03_fig02_pq_capability.svg)
+
 ### Figure 3 — Reactive Price λᴼ vs Load Level
 
 ```
@@ -160,6 +164,8 @@ compensation regardless of location.
   → Price is near-zero at light load (Q abundant) and rises sharply
     above 380 MW as voltage constraint becomes binding
 ```
+
+![Figure 3: Reactive Power Price vs Active Load](../plot_figures/ex03_fig03_reactive_price.svg)
 
 ### Figure 4 — Fairness Metric F vs Load Level
 
@@ -178,6 +184,8 @@ compensation regardless of location.
   A locational reactive pricing scheme is needed above 380 MW.
 ```
 
+![Figure 4: Reactive Pricing Fairness vs Load](../plot_figures/ex03_fig04_fairness_vs_load.svg)
+
 ### Figure 5 — Voltage Deviation Penalty vs Load
 
 ```
@@ -192,6 +200,8 @@ compensation regardless of location.
          └─────────────────────────────────────
           100   200   300   400   500 [MW]
 ```
+
+![Figure 5: Voltage Deviation Penalty vs Load](../plot_figures/ex03_fig05_voltage_deviation.svg)
 
 ---
 

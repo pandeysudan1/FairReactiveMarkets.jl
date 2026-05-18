@@ -132,6 +132,8 @@ Training stops when the coefficient change is small:
   →  VFA converges above PFA at τ ≈ 15 iterations
 ```
 
+![Figure 1: VFA Learning Curve — Revenue per Episode](../plot_figures/ex04_fig01_learning_curve_revenue.svg)
+
 ### Figure 2 — Learned Water Value Function Ṽ(V; θ*)
 
 ```
@@ -152,6 +154,8 @@ Training stops when the coefficient change is small:
   at low V (scarcity) and the value saturates at high V (abundance).
 ```
 
+![Figure 2: VFA Learning Curve — Fairness per Episode](../plot_figures/ex04_fig02_learning_curve_fairness.svg)
+
 ### Figure 3 — Marginal Water Value λ_w(V) vs Reservoir Level
 
 ```
@@ -169,6 +173,8 @@ Training stops when the coefficient change is small:
   → At V=100 Mm³: λ_w ≈ 4.1 €/MWh  →  release when price > 4.1 €
 ```
 
+![Figure 3: Learned Marginal Water Value λ_w(V)](../plot_figures/ex04_fig03_marginal_water_value.svg)
+
 ### Figure 4 — Fairness Metric F over Simulation Horizon (Policy Comparison)
 
 ```
@@ -184,6 +190,8 @@ Training stops when the coefficient change is small:
       0                50                  100  period
   Mean PFA F = 9.3  |  Mean VFA F = 5.7  |  Reduction: 39%
 ```
+
+![Figure 4: Policy Revenue Comparison — VFA vs PFA (last 10 episodes)](../plot_figures/ex04_fig04_policy_comparison_revenue.svg)
 
 ### Table 2 — Policy Performance Comparison (100-period simulation)
 
